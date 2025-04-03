@@ -1,0 +1,134 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>herbalismSPA</Name>
+    <RootNamespace>herbalismSPA</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c789dfbd-c988-4247-a3b5-44c578f5fad4</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>server.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <NodejsPort>1337</NodejsPort>
+    <StartWebBrowser>true</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="assets\130862457-56a47d633df78cf77282b064.jpg" />
+    <Content Include="assets\3eb9e7939614a9b4c79cb74234c203de.jpg" />
+    <Content Include="assets\71d63639-0280-4cdc-8c8a-00134ef812ba.jpeg" />
+    <Content Include="assets\Camellia.png" />
+    <Content Include="assets\camellia2.jpg" />
+    <Content Include="assets\Chamomile-bush.png" />
+    <Content Include="assets\Chamomile-single.png" />
+    <Content Include="assets\dandelion blooming.mp4" />
+    <Content Include="assets\dandelion.png" />
+    <Content Include="assets\dandelion2.jpeg" />
+    <Content Include="assets\Echinacea plant.jpeg" />
+    <Content Include="assets\fennel.jpeg" />
+    <Content Include="assets\fennel2.jpeg" />
+    <Content Include="assets\fennel3.jpg" />
+    <Content Include="assets\German Chamomile plant.jpeg" />
+    <Content Include="assets\German Chamomile plant2.jpeg" />
+    <Content Include="assets\ginger-botanical.png" />
+    <Content Include="assets\ginger.jpeg" />
+    <Content Include="assets\greentea.jpg" />
+    <Content Include="assets\greentea2.jpeg" />
+    <Content Include="assets\herbalism.png" />
+    <Content Include="assets\Lavender-eight-flowers.png" />
+    <Content Include="assets\lavender.jpeg" />
+    <Content Include="assets\lavender2.jpeg" />
+    <Content Include="assets\lemon balm.jpg" />
+    <Content Include="assets\lemon balm2.jpg" />
+    <Content Include="assets\linden.jpeg" />
+    <Content Include="assets\lock_24dp_48752C_FILL0_wght400_GRAD0_opsz24.svg" />
+    <Content Include="assets\mail_24dp_48752C_FILL0_wght400_GRAD0_opsz24.svg" />
+    <Content Include="assets\marigold.jpeg" />
+    <Content Include="assets\marigold2.jpeg" />
+    <Content Include="assets\mint.png" />
+    <Content Include="assets\person_24dp_48752C_FILL0_wght400_GRAD0_opsz24.svg" />
+    <Content Include="assets\rasberry.jpg" />
+    <Content Include="assets\red clover.jpeg" />
+    <Content Include="assets\red clover2.jpeg" />
+    <Content Include="assets\Rosebud.jpeg" />
+    <Content Include="assets\rosebud2.jpg" />
+    <Content Include="assets\sting-nettle.jpg" />
+    <Content Include="assets\thyme.jpg" />
+    <Content Include="assets\tyme2.jpeg" />
+    <Content Include="data\data.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="data\healthconditions.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="data\herbs.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="data\tearecipes.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="index.html" />
+    <Content Include="script.js" />
+    <Content Include="server.js" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="data\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

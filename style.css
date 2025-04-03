@@ -1,0 +1,489 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #F8EDE3;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-shadow: 0 0 10px black, 0 0 20px black;
+}
+/* Top Navigation Bar */
+.top-nav {
+    background-color: #BDD2B6;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search-bar {
+    width: 80%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Utility */
+.hidden {
+    display: none;
+}
+
+/* Overlay & Modal */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background-color: white;
+    width: 350px;
+    padding: 30px 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Auth Form Elements */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+    .input-group i {
+        margin-right: 10px;
+        color: #777;
+    }
+
+    .input-group input {
+        flex: 1;
+        border: none;
+        outline: none;
+    }
+
+.auth-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.auth-switch {
+    text-align: center;
+    margin-top: 15px;
+}
+
+    .auth-switch button {
+        background: none;
+        border: none;
+        color: #4CAF50;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+/* Top Nav Button */
+.login-btn {
+    background-color: #2e3d0f;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    .login-btn:hover {
+        background-color: #1e2d0a;
+    }
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+/* Main Navigation Bar */
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #A2B29F;
+    padding: 10px;
+}
+
+.nav-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%; /* Make buttons stretch across the navigation bar */
+}
+
+    .nav-btn:hover {
+        background-color: #2e3d0f;
+    }
+
+/* Main Section */
+#main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFDBBA97;
+    background-image: url('./assets/herbalism.png');
+    background-size: 80%; /* Adjust to fit content */
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect */
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Dynamic Content Area */
+#content-area {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dynamic Content Sections */
+/* Hidden by Default */
+.content-section {
+    display: none;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+    .content-section.active {
+        display: block;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+.herbs-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#herbs-list {
+    list-style-type: none;
+    padding: 0;
+    width: 30%;
+}
+
+    #herbs-list li {
+        cursor: pointer;
+        margin-bottom: 10px;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        #herbs-list li:hover {
+            background-color: #f0f0f0;
+        }
+
+.herb-details {
+    width: 65%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .herb-details.hidden {
+        display: none;
+    }
+
+#herb-benefits {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Recipes Container */
+.recipes-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Left Column: Recipe categories */
+#recipe-taste {
+    flex: 1;
+    max-width: 220px;
+    list-style-type: none;
+    padding: 10px;
+    border-right: 2px solid #ddd;
+    text-align: center;
+}
+
+/* Left Column: Tea recipe names */
+#recipes-list-container {
+    flex: 1.5;
+    max-width: 300px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Column: Recipe details */
+.recipe-details {
+    flex: 2;
+    min-width: 350px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    /* Hide recipe details initially */
+    .recipe-details.hidden {
+        display: none;
+    }
+
+/* Ensure list items are neatly spaced */
+#recipes-list li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+    #recipes-list li:hover {
+        background-color: #e0e0e0;
+    }
+
+/* Responsive design: Stack on smaller screens */
+@media screen and (max-width: 768px) {
+    .recipes-container {
+        flex-direction: column;
+    }
+
+    #recipe-taste, #recipes-list-container, .recipe-details {
+        width: 100%;
+    }
+}
+
+/* Recipe ingredients and instructions */
+#recipe-ingredients {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#recipe-instructions {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/* Health & Herbs */
+.healthandherbs-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Hide Health & Herbs by default */
+#healthandherb {
+    display: none;
+}
+
+    /* Show when activated */
+    #healthandherb.active {
+        display: block;
+    }
+
+/* Left Column: Health categories */
+#health-conditions-container {
+    flex: 1;
+    max-width: 220px;
+    list-style-type: none;
+    padding: 10px;
+    border-right: 2px solid #ddd;
+    text-align: center;
+}
+
+/* Left Column: Tea recipe names */
+#healthy-tea-list-container {
+    flex: 1.5;
+    max-width: 300px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+/* Right Column: Recipe details */
+.tea-details {
+    flex: 2;
+    min-width: 350px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .tea-details.hidden {
+        display: none;
+    }
+
+#tea-ingredients {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#tea-instructions {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/* Responsive design for Health & Herbs */
+@media screen and (max-width: 768px) {
+    .healthandherbs-container {
+        flex-direction: column;
+    }
+
+    #health-conditions, #healthy-tea-list-container, .tea-details {
+        width: 100%;
+    }
+}
+
+/* Chatbot */
+.chatbot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #A6B37D;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #B99470;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+/* Tablets */
+@media screen and (max-width: 1024px) {
+    #main {
+        background-size: contain;
+        background-position: top;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    #main {
+        background-size: 100%;
+        background-position: center top;
+        background-attachment: scroll;
+    }
+}
+
+/* Extra Small Devices */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    #content-area {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .nav-btn {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* Stack navigation buttons vertically for small screens */
+    .main-nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    /* Adjust background position for smaller screens */
+    main {
+        background-position: center top;
+        background-size: auto 100%;
+    }
+
+    /* Make navigation buttons full-width */
+    .nav-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Content area adjustments */
+    #content-area {
+        width: 90%;
+        padding: 15px;
+    }
+
+    /* Chatbot Sidebar */
+    .chatbot {
+        width: 200px;
+        bottom: 10px;
+        right: 10px;
+    }
+}

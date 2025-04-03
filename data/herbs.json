@@ -1,0 +1,225 @@
+[
+  {
+    "name": "Chamomile",
+    "image": "assets/German Chamomile plant.jpeg",
+    "description": "Chamomile is a popular herb used in teas and other herbal remedies. Known for its calming effects, it's often used to help with sleep and relaxation. Chamomile is also used to help with digestive issues, such as indigestion and bloating. It's a gentle herb that is safe for most people to use, but it can cause allergic reactions in some, especially those allergic to ragweed. Pregnant or breastfeeding individuals should consult a doctor before use.",
+    "benefits": [
+      "Relieves Anxiety and Depression",
+      "Improves Insomnia",
+      "Relieves Cough, Asthma, Bronchitis, Cold Symptoms, Seasonal Allergies",
+      "Relieves Inflammation",
+      "Relieves Muscle Spasms",
+      "PMS Symptoms and Other Menstrual Disorders",
+      "Treats Skin Disorders",
+      "Aids in Indigestion, Ulcers, Wounds, Gastrointestinal Disorders, Hemorrhoids",
+      "Eases Arthritis Symptoms and Rheumatic Pain"
+    ]
+  },
+  {
+    "name": "Dandelion",
+    "image": "assets/dandelion.png",
+    "description": "Dandelions are highly adaptable and commonly regarded as weeds, yet they have a variety of culinary and medicinal uses. They're known for supporting bone health, liver cleansing, and blood sugar management among many other benefits.",
+    "benefits": [
+      "Contains calcium to protect bones, reduce muscle tension, and lower high blood pressure",
+      "High in Vitamin K: Improves bone and brain health, reduces risk of fractures and certain cancers",
+      "Cleanses liver, helps with mineral absorption, and reduces inflammation",
+      "Fights diabetes by stimulating insulin production",
+      "High in antioxidants to prevent cell damage",
+      "Rich in fiber to improve digestion and intestinal health",
+      "Good source of Vitamin A for healthy vision, skin, and immune support",
+      "Acts as a diuretic to prevent urinary tract infections"
+    ]
+  },
+  {
+    "name": "Ginger",
+    "image": "assets/ginger-botanical.png",
+    "description": "Ginger is a popular spice that has been used for centuries for its medicinal properties. It's known for its anti-inflammatory and antioxidant effects, as well as its ability to help with digestion, nausea, and pain relief. Ginger can be consumed fresh, dried, or as a powder, and is often used in teas, soups, and other dishes.",
+    "benefits": [
+      "Relieves nausea, motion sickness, and morning sickness",
+      "Reduces cold symptoms, allergies, and infections",
+      "Protects against neurodegenerative disorders",
+      "Alleviates inflammation, muscle and joint pain, and menstrual cramps",
+      "Supports weight loss efforts",
+      "Promotes healthy digestion",
+      "Helps maintain normal blood sugar levels",
+      "Supports healthy cholesterol levels",
+      "Favorable effects on blood pressure levels",
+      "May prevent various types of cancer"
+    ]
+  },
+  {
+    "name": "Peppermint",
+    "image": "assets/mint.png",
+    "description": "Peppermint is a popular herb known for its refreshing flavor and cooling sensation. It's commonly used in teas, candies, and other products for its soothing effects on the digestive system. Peppermint is also used to help with headaches, muscle pain, and congestion.",
+    "benefits": [
+      "Relieves indigestion, gas, bloating, and nausea",
+      "Reduces tension headaches and migraines",
+      "Relieves muscle spasms and soreness",
+      "Clears congestion and soothes sore throats",
+      "Fights infections and supports oral health",
+      "Protects against cell damage and chronic diseases",
+      "Reduces anxiety and promotes relaxation",
+      "Eases menstrual cramps and symptoms"
+    ]
+  },
+  {
+    "name": "Echinacea",
+    "image": "assets/Echinacea plant.jpeg",
+    "description": "Echinacea is a popular herb that's known for its immune-boosting properties. It's commonly used to help prevent and treat colds, flu, and other infections. Echinacea is also used to help with inflammation, pain, and skin conditions.",
+    "benefits": [
+      "Helps prevent catching a cold",
+      "Reduces cold/flu symptoms and duration",
+      "Boosts immunity",
+      "Combats cancer",
+      "Alleviates pain",
+      "Fights inflammation",
+      "Treats constipation",
+      "Improves skin health",
+      "Supports mental health",
+      "Relieves upper respiratory issues",
+      "Treats asthma, bronchitis, cough, and pneumonia"
+    ]
+  },
+  {
+    "name": "Lavender",
+    "image": "assets/lavender.jpeg",
+    "description": "Lavender is a popular herb known for its calming effects. It's commonly used in teas, essential oils, and other products for its soothing properties. Lavender is also used to help with anxiety, insomnia, and skin conditions.",
+    "benefits": [
+      "Relieves anxiety, depression, and stress",
+      "Improves sleep quality and reduces insomnia",
+      "Treats skin conditions and infections",
+      "Protects against cell damage and chronic diseases",
+      "Reduces inflammation and pain",
+      "Lowers cholesterol and blood pressure levels",
+      "Eases menstrual cramps and symptoms"
+    ]
+  },
+  {
+    "name": "Lemon Balm",
+    "image": "assets/lemon balm.jpg",
+    "description": "Lemon balm is a lemon-scented herb belonging to the mint family. It is renowned for its calming and uplifting properties, making it a popular choice in herbalism for reducing stress, anxiety, and promoting relaxation.",
+    "benefits": [
+      "Helps fight infectious bacteria",
+      "Alleviates exhaustion, brain fog, and digestive problems",
+      "Regulates blood sugar and supports diabetes management",
+      "Treats anxiety and insomnia",
+      "Improves focus and attention",
+      "Enhances mood and cognitive performance",
+      "Reduces insomnia symptoms and sleep disorders",
+      "Alleviates menopause symptoms",
+      "Provides antioxidant and anti-inflammatory properties",
+      "Regulates overactive thyroid",
+      "Prevents gastric ulcers and provides remedies for constipation"
+    ]
+  },
+  {
+    "name": "Marigold",
+    "image": "assets/marigold2.jpeg",
+    "description": "Marigold, also known as Calendula, is a versatile herb commonly used in herbalism. Its vibrant orange or yellow flowers contain compounds that offer various health benefits.",
+    "benefits": [
+      "Treats skin conditions and infections",
+      "Reduces inflammation and irritation",
+      "Relieves cough, cold, and flu symptoms",
+      "Aids in indigestion, gas, and bloating",
+      "Protects against cell damage and chronic diseases",
+      "Reduces inflammation and pain",
+      "Lowers cholesterol and blood pressure levels",
+      "Eases menstrual cramps and symptoms",
+      "Heals ulcers and wounds",
+      "Promotes oral health and fights gingivitis"
+    ]
+  },
+  {
+    "name": "Rose Bud",
+    "image": "assets/rosebud2.jpg",
+    "description": "Rose buds are rich in vitamin C and antioxidants, making them valuable for supporting immune health and promoting radiant skin.",
+    "benefits": [
+      "Protects against cell damage and chronic diseases",
+      "Reduces inflammation and pain",
+      "Supports immune function by boosting vitamin C content",
+      "Relieves menstrual cramps and regulates menstrual cycles",
+      "Helps with stomach and digestive problems",
+      "Improves sleep quality and reduces fatigue",
+      "Regulates mood and alleviates irritability"
+    ]
+  },
+  {
+    "name": "Raspberry Leaf",
+    "image": "assets/rasberry.jpg",
+    "description": "Raspberry leaf is a herbal remedy known for its benefits during pregnancy, including easing labor and reducing morning sickness. It's also used to relieve menstrual discomfort and support reproductive health.",
+    "benefits": [
+      "Improves sleep quality and reduces insomnia",
+      "Aids in indigestion, gas, and bloating",
+      "Protects against cell damage and chronic diseases",
+      "Reduces inflammation and pain",
+      "Lowers cholesterol and blood pressure levels",
+      "Supports pregnancy and eases menstrual cramps"
+    ]
+  },
+  {
+    "name": "Thyme",
+    "image": "assets/thyme.jpg",
+    "description": "Thyme is an aromatic herb with medicinal properties used to alleviate respiratory issues, digestive problems, and inflammation.",
+    "benefits": [
+      "May help fight cancer",
+      "Protects against bronchitis and respiratory issues",
+      "Helps with digestive issues such as colic and gastritis",
+      "Alleviates arthritis and stomach pain",
+      "Acts as a natural diuretic",
+      "Stimulates appetite"
+    ]
+  },
+  {
+    "name": "Stinging Nettle",
+    "image": "assets/sting-nettle.jpg",
+    "description": "Stinging nettle is rich in nutrients like vitamins, minerals, and antioxidants. It's used for allergies, joint pain, and skincare.",
+    "benefits": [
+      "Helps with osteoarthritis and joint pain",
+      "Alleviates hay fever and asthma symptoms",
+      "Reduces bleeding and promotes wound healing",
+      "Stimulates hair growth",
+      "Helps control blood sugar levels",
+      "Treats kidney and urinary tract issues"
+    ]
+  },
+  {
+    "name": "Red Clover",
+    "image": "assets/red clover.jpeg",
+    "description": "Red clover is used for menopause, cardiovascular health, and skin conditions. It contains estrogen-like compounds and is consumed as tea or supplement.",
+    "benefits": [
+      "Reduces menopause symptoms",
+      "Maintains bone strength",
+      "Improves cardiovascular health",
+      "Boosts circulation",
+      "Helps prevent cancer",
+      "Treats skin inflammation"
+    ]
+  },
+  {
+    "name": "Linden",
+    "image": "assets/linden.jpeg",
+    "description": "Linden flowers are valued in herbalism for their calming effects, aiding in relaxation, stress relief, and promoting sleep.",
+    "benefits": [
+      "Supports eye, heart, and skin health",
+      "Acts as a natural diuretic",
+      "Decreases coughs, flu, and respiratory issues",
+      "Helps reduce pain and inflammation",
+      "Regulates blood pressure",
+      "Relieves anxiety symptoms and headaches"
+    ]
+  },
+  {
+    "name": "Fennel",
+    "image": "assets/fennel.jpeg",
+    "description": "Fennel seeds are prized in herbalism for their digestive benefits, antioxidant and anti-inflammatory properties, respiratory support, and menstrual relief.",
+    "benefits": [
+      "Helps fight cancer",
+      "Has antioxidant and anti-inflammatory effects",
+      "Manages diabetes",
+      "Boosts bone health",
+      "Improves skin health",
+      "Aids digestion and eliminates bad breath",
+      "Eases menopausal symptoms"
+    ]
+  }
+]

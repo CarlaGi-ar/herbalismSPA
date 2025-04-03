@@ -1,0 +1,548 @@
+{
+  "categories": [
+    {
+      "taste": "Citrus",
+      "recipes": [
+        {
+          "name": "Lemon Ginger Tea",
+          "ingredients": [
+            "Freshly grated ginger",
+            "Lemon slices",
+            "Honey",
+            "Black tea bags"
+          ],
+          "instructions": [
+            "Boil water in a saucepan.",
+            "Add freshly grated ginger and lemon slices to the boiling water.",
+            "Let it simmer for 5 minutes.",
+            "Add black tea bags and steep for 3-4 minutes.",
+            "Remove from heat, strain, and add honey to taste.",
+            "Serve hot."
+          ]
+        },
+        {
+          "name": "Orange Spice Tea",
+          "ingredients": [
+            "Orange zest",
+            "Cinnamon sticks",
+            "Cloves"
+          ],
+          "instructions": [
+            "In a saucepan, combine water, orange zest, cinnamon sticks, and cloves.",
+            "Bring to a boil, then reduce heat and simmer for 5 minutes.",
+            "Add black tea leaves and steep for 3-4 minutes.",
+            "Strain the tea into cups.",
+            "Optionally, sweeten with honey or sugar.",
+            "Serve hot."
+          ]
+        }
+      ]
+    },
+    {
+      "taste": "Floral",
+      "recipes": [
+        {
+          "name": "Chamomile Lavender Tea",
+          "ingredients": [
+            "1 tablespoon dried chamomile flowers",
+            "1 teaspoon dried lavender flowers",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Boil water in a pot.",
+            "Place chamomile and lavender flowers in a teapot or heatproof container.",
+            "Pour the boiling water over the flowers.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve. Optionally, sweeten with honey or a slice of lemon."
+          ]
+        },
+        {
+          "name": "Orange Blossom Chamomile Tea",
+          "ingredients": [
+            "1 tablespoon dried chamomile flowers",
+            "1 teaspoon dried orange blossoms",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Boil water in a pot.",
+            "Place chamomile flowers and orange blossoms in a teapot or heatproof container.",
+            "Pour the boiling water over the flowers.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve. Optionally, add a slice of orange for extra flavor."
+          ]
+        },
+        {
+          "name": "Passionflower and Lemon Balm Tea",
+          "ingredients": [
+            "1 tablespoon dried passionflower",
+            "1 tablespoon dried lemon balm leaves",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Bring water to a boil.",
+            "Place dried passionflower and lemon balm leaves in a teapot or heatproof container.",
+            "Pour the boiling water over the herbs.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve. Sweeten with honey if desired."
+          ]
+        },
+        {
+          "name": "Chamomile Peppermint Lavender Tea",
+          "ingredients": [
+            "1 tablespoon dried chamomile flowers",
+            "1 tablespoon dried peppermint leaves",
+            "1 teaspoon dried lavender flowers",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Boil water in a pot.",
+            "Place chamomile flowers, peppermint leaves, and lavender flowers in a teapot or heatproof container.",
+            "Pour the boiling water over the flowers and leaves.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve. Optionally, add honey for sweetness."
+          ]
+        },
+        {
+          "name": "Lemon Chamomile Ginger Tea",
+          "ingredients": [
+            "1 tablespoon dried chamomile flowers",
+            "1 teaspoon dried ginger slices or grated ginger",
+            "1 teaspoon lemon zest",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Bring water to a boil.",
+            "Place chamomile flowers, ginger, and lemon zest in a teapot or heatproof container.",
+            "Pour the boiling water over the ingredients.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve. Optionally, sweeten with honey."
+          ]
+        },
+        {
+          "name": "Linden Red Clover Lemon Balm Tea",
+          "ingredients": [
+            "1 tablespoon dried linden flowers",
+            "1 tablespoon dried red clover blossoms",
+            "1 teaspoon dried lemon balm leaves",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Boil water in a pot.",
+            "Place dried linden flowers, red clover blossoms, and lemon balm leaves in a teapot or heatproof container.",
+            "Pour the boiling water over the flowers and leaves.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve."
+          ]
+        },
+        {
+          "name": "Marigold-Linden Tea",
+          "ingredients": [
+            "1 tablespoon dried linden flowers",
+            "1 teaspoon dried marigold petals",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Boil water in a pot.",
+            "Place dried linden flowers and marigold petals in a teapot or heatproof container.",
+            "Pour the boiling water over the flowers.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve."
+          ]
+        },
+        {
+          "name": "Echinacea Rose Immune Booster",
+          "ingredients": [
+            "1 tablespoon dried echinacea",
+            "1 teaspoon dried rose petals",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Bring water to a boil.",
+            "Place dried echinacea and rose petals in a teapot or heatproof container.",
+            "Pour the boiling water over the herbs.",
+            "Steep for 5-7 minutes.",
+            "Strain and add honey or lemon juice to taste."
+          ]
+        },
+        {
+          "name": "Lavender Lemon Balm Relaxation Tea",
+          "ingredients": [
+            "1 tablespoon dried lemon balm leaves",
+            "1 teaspoon dried lavender flowers",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Boil water in a pot.",
+            "Place lemon balm leaves and lavender flowers in a teapot or heatproof container.",
+            "Pour the boiling water over the herbs.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve."
+          ]
+        },
+        {
+          "name": "Refreshing Mint and Rose Tea",
+          "ingredients": [
+            "1 tablespoon dried peppermint leaves",
+            "1 teaspoon dried rose petals",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Boil water in a pot.",
+            "Place peppermint leaves and rose petals in a teapot or heatproof container.",
+            "Pour the boiling water over the herbs.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve."
+          ]
+        },
+        {
+          "name": "Floral Symphony Tea",
+          "ingredients": [
+            "1 tablespoon dried rose buds",
+            "1 teaspoon dried lavender flowers",
+            "1 tablespoon dried chamomile flowers",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Bring water to a boil.",
+            "Combine rose buds, lavender, and chamomile in a teapot or heatproof container.",
+            "Pour hot water over the floral blend and steep for 5-7 minutes.",
+            "Strain into a cup and sweeten as desired."
+          ]
+        },
+        {
+          "name": "Chamomile Lavender Tea",
+          "ingredients": [
+            "1 tablespoon dried chamomile flowers",
+            "1 teaspoon dried lavender flowers",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Boil water in a pot.",
+            "Place chamomile and lavender flowers in a teapot or heatproof container.",
+            "Pour the boiling water over the flowers.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve. Optionally, sweeten with honey or a slice of lemon.",
+            "Serve hot or chilled over ice."
+          ]
+        },
+        {
+          "name": "Orange Blossom Chamomile Tea",
+          "ingredients": [
+            "1 tablespoon dried chamomile flowers",
+            "1 teaspoon dried orange blossoms",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Boil water in a pot.",
+            "Place chamomile flowers and orange blossoms in a teapot or heatproof container.",
+            "Pour the boiling water over the flowers.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve. Optionally, add a slice of orange for extra flavor."
+          ]
+        }
+      ]
+    },
+    {
+      "taste": "Fruity",
+      "recipes": [
+        {
+          "name": "Raspberry Leaf with Dried Berry Mix",
+          "ingredients": [
+            "1 tablespoon dried raspberry leaves",
+            "1/4 cup mixed dried berries (cranberries, blueberries, raspberries)",
+            "2 cups water"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Add raspberry leaves and dried berries to a teapot.",
+            "Pour the boiling water over them and let steep for about 10 minutes.",
+            "Strain into a cup and enjoy this tea for its natural fruity flavor."
+          ]
+        },
+        {
+          "name": "Lemon Balm with Citrus Peel",
+          "ingredients": [
+            "1 tablespoon dried lemon balm leaves",
+            "1 tablespoon dried citrus peel (orange or lemon)",
+            "2 cups water"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Add lemon balm and citrus peel to a teapot.",
+            "Pour the boiling water over them and let steep for about 8-10 minutes.",
+            "Strain into a cup and enjoy the citrus-infused tea."
+          ]
+        },
+        {
+          "name": "Ginger with Dried Peach Slices",
+          "ingredients": [
+            "1 teaspoon fresh or dried ginger, chopped",
+            "1/4 cup dried peach slices",
+            "2 cups water"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Add ginger and dried peach slices to a teapot.",
+            "Pour the boiling water over them and let steep for about 10 minutes.",
+            "Strain into a cup and enjoy the fruity warmth of this tea."
+          ]
+        },
+        {
+          "name": "Peppermint and Dried Strawberry Slices",
+          "ingredients": [
+            "1 tablespoon dried peppermint leaves",
+            "1/4 cup dried strawberry slices",
+            "2 cups water"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Combine peppermint and dried strawberry slices in a teapot.",
+            "Pour the boiling water over them and let steep for about 10 minutes.",
+            "Strain into a cup and enjoy the refreshing fruit-infused tea."
+          ]
+        },
+        {
+          "name": "Fennel Seeds and Dried Apple",
+          "ingredients": [
+            "1 teaspoon fennel seeds",
+            "1/4 cup dried apple peel/pieces",
+            "2 cups water"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Add fennel seeds and dried apple pieces to a teapot.",
+            "Pour the boiling water over them and let steep for about 5-7 minutes.",
+            "Strain into a cup and enjoy the mild fruity flavor."
+          ]
+        },
+        {
+          "name": "Echinacea and Dried Elderberry",
+          "ingredients": [
+            "1 tablespoon dried echinacea",
+            "2 tablespoons dried elderberries",
+            "2 cups water"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Combine echinacea and dried elderberries in a teapot.",
+            "Pour the boiling water over them and let steep for about 10 minutes.",
+            "Strain into a cup and enjoy the natural sweetness and immune-boosting properties."
+          ]
+        },
+        {
+          "name": "Lavender and Dried Blueberry Tea",
+          "ingredients": [
+            "1 teaspoon dried lavender flowers",
+            "1/4 cup dried blueberries",
+            "2 cups water"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Add lavender and dried blueberries to a teapot.",
+            "Pour the boiling water over them and let steep for about 5-7 minutes.",
+            "Strain into a cup and enjoy the soothing yet fruity flavor."
+          ]
+        },
+        {
+          "name": "Dandelion Leaf and Dried Citrus Peel",
+          "ingredients": [
+            "1 tablespoon dried dandelion leaves",
+            "1 tablespoon dried citrus peel (lemon or orange)",
+            "2 cups water"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Combine dandelion leaves and dried citrus peel in a teapot.",
+            "Pour the boiling water over them and let steep for about 10 minutes.",
+            "Strain into a cup and enjoy the refreshing citrus blend."
+          ]
+        },
+        {
+          "name": "Stinging Nettle and Dried Apple Spice",
+          "ingredients": [
+            "1 tablespoon dried stinging nettle leaves",
+            "1/4 cup dried apple pieces",
+            "A pinch of ground cinnamon and cloves",
+            "2 cups water"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Add stinging nettle, dried apple pieces, and spices to a teapot.",
+            "Pour the boiling water over them and let steep for about 10 minutes.",
+            "Strain into a cup and enjoy the warming fruity tea."
+          ]
+        },
+        {
+          "name": "Chamomile and Dried Apple Peel Tea",
+          "ingredients": [
+            "1 tablespoon dried chamomile flowers",
+            "Peel of 1 apple, dried",
+            "1 cinnamon stick",
+            "2 cups water"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Combine chamomile, dried apple peel, and cinnamon stick in a teapot.",
+            "Pour the boiling water over them and let steep for about 10 minutes.",
+            "Strain into a cup and enjoy the naturally sweet aroma."
+          ]
+        }
+      ]
+    },
+    {
+      "taste": "Sweet",
+      "recipes": [
+        {
+          "name": "Ginger Honey Lemon Soother with Maple Syrup",
+          "ingredients": [
+            "1 teaspoon fresh ginger, sliced",
+            "1 tablespoon dried lemon balm leaves",
+            "1-2 cups water",
+            "Maple syrup to taste"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Add ginger and lemon balm to a teapot.",
+            "Pour boiling water over herbs and steep for 7-10 minutes.",
+            "Strain into a cup, add maple syrup to taste, and enjoy this comforting, sweet, and citrusy tea."
+          ]
+        },
+        {
+          "name": "Marigold Orange Blossom Tea with Caramel",
+          "ingredients": [
+            "1 tablespoon dried marigold petals",
+            "Zest of 1 orange",
+            "1-2 cups water",
+            "Caramel syrup to taste"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Combine marigold petals and orange zest in a teapot.",
+            "Pour boiling water over herbs and steep for 5-7 minutes.",
+            "Strain into a cup, add caramel syrup to taste, and indulge in this floral and citrusy delight."
+          ]
+        },
+        {
+          "name": "Rose Bud and Chamomile Honey Elixir",
+          "ingredients": [
+            "1 tablespoon dried rose buds",
+            "1 tablespoon dried chamomile flowers",
+            "1-2 cups water",
+            "Honey to taste"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Add rose buds and chamomile flowers to a teapot.",
+            "Pour boiling water over rose buds and steep for 5-7 minutes.",
+            "Strain into a cup, add honey to taste, and enjoy the delicate, sweet aroma of roses."
+          ]
+        },
+        {
+          "name": "Raspberry Leaf Sweet Serenade with Maple Syrup",
+          "ingredients": [
+            "1 tablespoon dried raspberry leaves",
+            "1 tablespoon dried hibiscus flowers (optional)",
+            "1-2 cups water",
+            "Maple syrup to taste"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Combine raspberry leaves (and hibiscus, if using) in a teapot.",
+            "Pour boiling water over herbs and steep for 5-7 minutes.",
+            "Strain into a cup, add maple syrup to taste, and enjoy the subtle sweetness of raspberry."
+          ]
+        },
+        {
+          "name": "Lavender Dream with Almond Syrup",
+          "ingredients": [
+            "1 teaspoon dried lavender flowers",
+            "1 tablespoon dried chamomile flowers",
+            "1-2 cups water",
+            "Almond syrup to taste"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Combine lavender and chamomile in a teapot.",
+            "Pour boiling water over herbs and steep for 5-7 minutes.",
+            "Strain into a cup, add almond syrup to taste, and relish the soothing, floral sweetness."
+          ]
+        },
+        {
+          "name": "Honeyed Linden Infusion with Maple Syrup",
+          "ingredients": [
+            "1 tablespoon dried linden flowers",
+            "1-2 cups water",
+            "Maple syrup to taste"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Add linden flowers to a teapot.",
+            "Pour boiling water over linden flowers and steep for 5-7 minutes.",
+            "Strain into a cup, add maple syrup to taste, and enjoy the delicate sweetness of linden."
+          ]
+        },
+        {
+          "name": "Fennel Licorice Indulgence with Caramel",
+          "ingredients": [
+            "1 teaspoon fennel seeds",
+            "1 tablespoon dried licorice root (optional)",
+            "1-2 cups water",
+            "Caramel syrup to taste"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Combine fennel seeds and licorice root in a teapot.",
+            "Pour boiling water over herbs and steep for 5-7 minutes.",
+            "Strain into a cup, add caramel syrup to taste, and savor the natural sweetness of fennel and licorice."
+          ]
+        },
+        {
+          "name": "Thyme Lemon Balm Honey Sweetness",
+          "ingredients": [
+            "1 tablespoon dried thyme",
+            "1 tablespoon dried lemon balm leaves",
+            "1-2 cups water",
+            "Honey to taste"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Add thyme to a teapot.",
+            "Pour boiling water over thyme and lemon balm leaves and steep for 5-7 minutes.",
+            "Strain into a cup, add honey to taste, and enjoy the subtle sweetness of thyme."
+          ]
+        },
+        {
+          "name": "Chamomile Caramel Bliss",
+          "ingredients": [
+            "1 tablespoon dried chamomile flowers",
+            "1 teaspoon dried lavender flowers (optional)",
+            "1-2 cups water",
+            "Caramel syrup to taste (homemade or store-bought)"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Add chamomile (and lavender, if using) to a teapot.",
+            "Pour boiling water over herbs and steep for 5-7 minutes.",
+            "Strain into a cup, add caramel syrup to taste, and enjoy this naturally sweet and calming tea."
+          ]
+        },
+        {
+          "name": "Lemon Balm Minty Delight with Vanilla",
+          "ingredients": [
+            "1 tablespoon dried lemon balm leaves",
+            "1 teaspoon dried peppermint leaves",
+            "1-2 cups water",
+            "Vanilla extract to taste"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Combine lemon balm and peppermint in a teapot.",
+            "Pour boiling water over herbs and steep for 5-7 minutes.",
+            "Strain into a cup, add vanilla extract to taste, and savor the refreshing, sweet minty flavor."
+          ]
+        }
+      ]
+    }
+  ]
+}
+

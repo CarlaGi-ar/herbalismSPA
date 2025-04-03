@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Herbalism SPA</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Herbalism SPA</h1>
+    </header>
+
+    <!-- Top Navigation Bar -->
+    <div class="top-nav">
+        <input type="text" id="search-bar" name="site-search" autocomplete="off" placeholder="Search herbs or tea recipes...">
+        <!-- This button remains visible; clicking it shows the auth modal -->
+        <button id="auth-button" class="login-btn">Login</button>
+    </div>
+
+    <!-- Auth Overlay (hidden by default) -->
+    <div id="auth-overlay" class="overlay hidden">
+        <div id="auth-modal" class="modal">
+            <span class="close">&times;</span>
+
+            <!-- Login Form -->
+            <div id="login-form">
+                <h2>Login</h2>
+                <div class="input-group">
+                    <i class="icon-email"></i>
+                    <input type="email" id="login-email-input" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <i class="icon-password"></i>
+                    <input type="password" id="login-password-input" placeholder="Password" required>
+                </div>
+                <button id="login-submit" class="auth-btn">Login</button>
+                <div class="auth-switch">
+                    <p>Don't have an account? <button id="show-signup">Sign up!</button></p>
+                </div>
+            </div>
+
+            <!-- Signup Form (hidden by default) -->
+            <div id="signup-form" class="hidden">
+                <h2>Sign Up</h2>
+                <div class="input-group">
+                    <i class="icon-user"></i>
+                    <input type="text" id="signup-username-input" placeholder="Username" required>
+                </div>
+                <div class="input-group">
+                    <i class="icon-email"></i>
+                    <input type="email" id="signup-email-input" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <i class="icon-password"></i>
+                    <input type="password" id="signup-password-input" placeholder="Password" required>
+                </div>
+                <div class="input-group">
+                    <i class="icon-password"></i>
+                    <input type="password" id="signup-confirm-password-input" placeholder="Confirm Password" required>
+                </div>
+                <button id="signup-submit" class="auth-btn">Create Account</button>
+                <div class="auth-switch">
+                    <p>Already have an account? <button id="show-login">Log in!</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Second Navigation Bar -->
+    <nav class="main-nav">
+        <button class="nav-btn" data-target="about">About Herbalism</button>
+        <button class="nav-btn" data-target="herbs">Herbs</button>
+        <button class="nav-btn" data-target="recipes">Tea Recipes</button>
+        <button class="nav-btn" data-target="healthandherb">Health & Herbs</button>
+    </nav>
+
+
+    <!-- Main Section with Background -->
+    <main id="main">
+        <!-- Dynamic Content Area -->
+        <section id="content-area">
+            <div id="about" class="content-section hidden">
+                <h2>About Herbalism</h2>
+                <p><strong>“For years, plant-based remedies have been used as a traditional practice to treat and prevent a broad range of diseases.</strong></p>
+                <p><strong>During the past decade, natural therapies have regained public attention..."</strong></p>
+                <p> REF: Capasso, R., Lucariello, G. and Cicia, D. eds., (2021). Natural Medicine in Therapy..</p>
+                <br><br>
+                <p>I was inspired by my Romanian culture and folk traditions, which still use herbalism passed down by our ancestors. </p>
+                <p>Historical records by Herodotus, Hippocrates, Galen, and Dioscorides mention the Dacians’ use of medicinal plants, showing how advanced their herbal medicine was. </p>
+                <p>Dacian healers used many herbs for their healing properties, and these practices have been handed down through generations.</p>
+
+                <br>
+                <p>Since I was a child, I loved spending time in nature, collecting herbs like wild river mint to make tea at home. </p>
+                <p>My passion for nature has been the cornerstone of my life for the past decade.</p>
+                <p> Over these 10 years, I have immersed myself in exploring and experimenting with the benefits of natural herbs and flowers.</p>
+                <p> Tending to my own garden, I have learned firsthand the art of cultivating, collecting, drying, and storing a wide array of herbs.</p>
+                <p>Each year, as I harvest nature’s bounty, I find immense joy in brewing a perfect cup of herbal tea—a simple pleasure that nourishes both body and spirit.</p>
+                <p>This personal journey has not only deepened my understanding of natural remedies but has also fueled my desire to share this knowledge with others.</p>
+
+                <br>
+                <p>My project is a reflection of this lifelong passion, designed to educate and inspire individuals about the healing power of nature, one herb and one brew at a time.</p>
+                <p>My favorite herbs are chamomile and mint because they have helped me with digestive problems. </p>
+                <p>I am still learning and discovering new herbs and plants every day.</p>
+                <p>(ref: https://memorycherish.com/romanian-folk-remedies/).</p>
+            </div>
+
+            <div id="herbs" class="content-section hidden">
+                <h2>Herbs</h2>
+                <div class="herbs-container">
+                    <section id="herbs-list" aria-live="polite">
+                        <p class="loading">Loading herbs...</p>
+                    </section>
+                    <div id="herb-details" class="herb-details hidden">
+                        <!-- Details container -->
+                        <h3 id="herb-name"></h3>
+                        <img id="herb-image" src="" alt="Herb image" style="width: 300px; height: 500px;" />
+                        <p id="herb-description"></p>
+                        <ul id="herb-benefits"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="recipes" class="content-section hidden">
+                <h2>Tea Recipes</h2>
+                <div class="recipes-container">
+                    <h1 id="recipe-taste"></h1> <!-- Displays the 4 categories (Citrus, Floral, Sweet, etc.) -->
+
+                    <div id="recipes-list-container" class="recipes-list hidden">
+                        <h3 id="recipes-list-title"></h3> <!-- Displays the selected category name -->
+                        <ul id="recipes-list"></ul> <!-- Displays the tea recipe names for the selected category -->
+                    </div>
+
+                    <div id="recipe-details" class="recipe-details hidden">
+                        <h3 id="recipe-name"></h3> <!-- Displays the selected tea name -->
+                        <h4>Ingredients:</h4>
+                        <ul id="recipe-ingredients"></ul> <!-- Displays the selected tea's ingredients -->
+                        <h4>Instructions:</h4>
+                        <ul id="recipe-instructions"></ul> <!-- Displays the selected tea's instructions -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="healthandherb" class="healthandherbs-container content-section hidden">
+                <h2>Health & Herbs</h2>
+                <div class="health-conditions-container">
+                    <h1 id="health-conditions"></h1> <!-- Displays the health categories -->
+                    <ul id="condition-list"></ul>
+
+                    <div id="healthy-tea-list-container" class="healthy-tea-list hidden">
+                        <h3 id="health-recipes-list-title"></h3> <!-- Displays the tea recipes for the selected health category -->
+                        <ul id="name-list"></ul> <!-- Displays the tea names -->
+                    </div>
+
+                    <div id="tea-details" class="tea-details hidden">
+                        <h3 id="tea-name"></h3> <!-- Displays the selected tea name -->
+                        <h4>Ingredients:</h4>
+                        <ul id="tea-ingredients"></ul> <!-- Displays the tea's ingredients -->
+                        <h4>Instructions:</h4>
+                        <ul id="tea-instructions"></ul> <!-- Displays the tea's instructions -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Chatbot -->
+    <aside class="chatbot" aria-label="Herb Helper Chatbot">
+        <button id="toggle-chat" aria-expanded="true">-</button>
+        <div id="chat-container">
+            <h3>Herb Helper Chatbot</h3>
+            <div id="chat-messages" aria-live="polite"></div>
+            <input type="text" id="user-input" placeholder="Ask about herbs..." />
+            <button id="send-btn">Send</button>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <p>Thank you for visiting!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

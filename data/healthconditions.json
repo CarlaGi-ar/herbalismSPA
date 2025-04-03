@@ -1,0 +1,140 @@
+{
+  "health_conditions": [
+    {
+      "condition": "Anxiety",
+      "recipes": [
+        {
+          "name": "Chamomile Caramel Bliss",
+          "ingredients": [
+            "1 tablespoon dried chamomile flowers",
+            "1 teaspoon dried lavender flowers (optional)",
+            "1 - 2 cups water",
+            "Caramel syrup to taste (homemade or store-bought)"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Add chamomile (and lavender, if using) to a teapot.",
+            "Pour boiling water over herbs and steep for 5 - 7 minutes.",
+            "Strain into a cup, add caramel syrup to taste, and enjoy this naturally sweet and calming tea."
+          ]
+        },
+        {
+          "name": "Chamomile Echinacea Dream",
+          "ingredients": [
+            "1 tablespoon dried chamomile flowers",
+            "1 teaspoon dried echinacea",
+            "1-2 cups water",
+            "Honey or lemon to taste (optional)"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Place chamomile and echinacea in a teapot.",
+            "Pour the boiling water over them and steep for about 5-10 minutes.",
+            "Strain, then add honey or lemon as desired."
+          ]
+        },
+        {
+          "name": "Lavender Lemon Balm Relaxation Tea",
+          "ingredients": [
+            "1 tablespoon dried lemon balm leaves",
+            "1 teaspoon dried lavender flowers",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Boil water in a pot.",
+            "Place lemon balm leaves and lavender flowers in a teapot or heatproof container.",
+            "Pour the boiling water over the herbs.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve."
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "Digestive Problems",
+      "recipes": [
+        {
+          "name": "Chamomile Peppermint Lavender Tea",
+          "ingredients": [
+            "1 tablespoon dried chamomile flowers",
+            "1 tablespoon dried peppermint leaves",
+            "1 teaspoon dried lavender flowers",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Boil water in a pot.",
+            "Place chamomile flowers, peppermint leaves, and lavender flowers in a teapot or heatproof container.",
+            "Pour the boiling water over the flowers and leaves.",
+            "Steep for 5-7 minutes.",
+            "Strain and serve."
+          ]
+        },
+        {
+          "name": "Ginger Lemon Balm Fusion",
+          "ingredients": [
+            "1 tablespoon dried lemon balm leaves",
+            "1 teaspoon fresh or dried ginger, finely chopped",
+            "1-2 cups water",
+            "Honey or lemon slice (optional)"
+          ],
+          "instructions": [
+            "Boil water in a kettle.",
+            "Combine lemon balm and ginger in a teapot or heatproof container.",
+            "Pour hot water over the herbs and steep for 5 - 10 minutes.",
+            "Strain into a cup, add honey or a lemon slice for extra flavor."
+          ]
+        },
+        {
+          "name": "Peppermint Fennel Digestive Aid",
+          "ingredients": [
+            "1 tablespoon dried peppermint leaves",
+            "1 teaspoon fennel seeds",
+            "1-2 cups water",
+            "Honey (optional)"
+          ],
+          "instructions": [
+            "Bring water to a boil.",
+            "Crush the fennel seeds slightly and mix with peppermint leaves in a teapot.",
+            "Pour the hot water over and steep for 5 - 7 minutes.",
+            "Strain and sweeten with honey if desired."
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "Mental Health",
+      "recipes": [
+        {
+          "name": "Chamomile and Dried Apple Peel Tea",
+          "ingredients": [
+            "1 tablespoon dried chamomile flowers",
+            "Peel of 1 apple, dried",
+            "1 cinnamon stick",
+            "2 cups water"
+          ],
+          "instructions": [
+            "Boil water.",
+            "Combine chamomile, dried apple peel, and cinnamon stick in a teapot.",
+            "Pour the boiling water over them and let steep for about 10 minutes.",
+            "Strain into a cup."
+          ]
+        },
+        {
+          "name": "Floral Symphony Tea",
+          "ingredients": [
+            "1 tablespoon dried rose buds",
+            "1 teaspoon dried lavender flowers",
+            "1 tablespoon dried chamomile flowers",
+            "1-2 cups water"
+          ],
+          "instructions": [
+            "Bring water to a boil.",
+            "Combine rose buds, lavender, and chamomile in a teapot or heatproof container.",
+            "Pour hot water over the floral blend and steep for 5 - 7 minutes.",
+            "Strain into a cup and sweeten as desired."
+          ]
+        }
+      ]
+    }
+  ]
+}

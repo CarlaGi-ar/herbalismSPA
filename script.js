@@ -265,8 +265,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
-    // Auth System
-    // DOM Elements for Auth
+    
+    // Login System
+    // DOM Elements for Login
     const authOverlay = document.getElementById('auth-overlay');
     const authModal = document.getElementById('auth-modal');
     const loginForm = document.getElementById('login-form');
@@ -395,14 +396,11 @@ document.addEventListener('DOMContentLoaded', () => {
             authButton.textContent = 'Login';
         }
     }
-
     // Simple password hashing (demo only)
     function hashPassword(password) {
         return password.split('').reverse().join('') + 'salt';
     }
-
     // End of DOMContentLoaded
-
 
 //User saved favorites
 function saveFavorite(item, type)
@@ -411,6 +409,7 @@ function saveFavorite(item, type)
     if (!favorites[type]) favorites[type] = [];
     favorites[type].push(item); localStorage.setItem('favorites', JSON.stringify(favorites));
 }
+    
 // Simple Chatbot
 // Toggle Chatbot Collapsible Functionality
     document.getElementById('toggle-chat').addEventListener('click', () => {
@@ -426,12 +425,11 @@ function saveFavorite(item, type)
         toggleButton.setAttribute('aria-expanded', !isExpanded);
     });
 
-
 // Chatbot Implementation
     const chatbot = {
         responses: {
             "hello": "Hi! How can I help you with herbs or tea recipes today?"
-            // You can add more fixed responses if needed
+            "hi": "Hi! How can I help you with herbs or tea recipes today?"
         },
         // Check herbs for a matching name
         getHerbInfo: function (input) {
@@ -446,7 +444,6 @@ function saveFavorite(item, type)
         // Check tea recipes for a matching name
         getTeaRecipeInfo: function (input) {
             input = input.toLowerCase();
-            // Assuming recipesData.categories is an array where each category has a 'recipes' array
             for (let category of recipesData.categories) {
                 for (let recipe of category.recipes) {
                     if (recipe.name.toLowerCase().includes(input)) {
@@ -482,7 +479,7 @@ function saveFavorite(item, type)
         const userInputElement = document.getElementById('user-input');
         const input = userInputElement.value;
 
-        if (input.trim() === "") return; // Skip if empty
+        if (input.trim() === "") return; 
 
         const response = chatbot.getResponse(input);
 
